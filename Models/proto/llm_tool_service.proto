@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package llm_tool_service;
+
+// Service definition for an LLM acting as a callable tool
+service LlmTool {
+  // Processes a query intended for a specialized LLM tool
+  rpc ProcessToolQuery (ToolQueryRequest) returns (ToolQueryResponse);
+}
+
+message ToolQueryRequest {
+  string query_text = 1;         // The actual query/prompt for the tool model
+  int32 max_new_tokens = 2;     // Max tokens the tool model should generate for its response
+  // Optional: Add other parameters like temperature if needed by tools
+  // float temperature = 3;
+}
+
+message ToolQueryResponse {
+  string response_text = 1;    // The tool model's response
+  bool error = 2;              // True if an error occurred during tool processing
+  string error_message = 3;    // Error details if an error occurred
+}

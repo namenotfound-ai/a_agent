@@ -1,0 +1,13 @@
+.git
+.vscode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+# Add your local virtual environment folder if you have one (e.g., venv/, .venv/)
+# dyn_agent_env/ (if it's a local conda env dir, though conda env export is better)
+# Any large datasets or files not needed for runtime
+*.log
+# If you have a different DB file name you want to ignore from host
+# conversations_v1_5.db

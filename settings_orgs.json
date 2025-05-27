@@ -1,0 +1,44 @@
+{
+  "steps": [
+    {
+      "agentPort": "",
+      "role": "Business Analyst",
+      "roleDescription": "Analyze business needs and break them into dev tasks",
+      "maxTokens": 3000
+    },
+    {
+      "agentPort": "",
+      "role": "Developer",
+      "roleDescription": "Implements code, merges PRs, does the heavy coding",
+      "maxTokens": 10000
+    },
+    {
+      "agentPort": "",
+      "role": "Agent",
+      "roleDescription": "",
+      "maxTokens": 10000
+    }
+  ],
+  "customOrgs": [
+    {
+      "label": "Software2",
+      "roles": [
+        {
+          "role": "Business Analyst",
+          "roleDescription": "Analyze business needs and break them into dev tasks",
+          "maxTokens": 3000
+        },
+        {
+          "role": "Developer",
+          "roleDescription": "Implements code, merges PRs, does the heavy coding",
+          "maxTokens": 10000
+        },
+        {
+          "role": "Agent",
+          "roleDescription": "",
+          "maxTokens": 10000
+        }
+      ]
+    }
+  ]
+}
