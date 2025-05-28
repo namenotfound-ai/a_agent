@@ -1,9 +1,8 @@
-╔══════════════════════════════════════════════════╗
-║         n a m e n o t f o u n d . a i            ║
-╠══════════════════════════════════════════════════╣
-║    T H E   F U T U R E   O F   A I   I S         ║
-║            O N - D E V I C E                     ║
-╚══════════════════════════════════════════════════╝
+
+ n a m e n o t f o u n d . a i            
+
+ T H E   F U T U R E   O F   A I   I S   O N - D E V I C E                     
+
 
 > **A-Agent** — An AI-powered workspace system for creation
 
