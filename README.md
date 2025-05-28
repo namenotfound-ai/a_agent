@@ -19,4 +19,16 @@ Chains and orgs can be saved and shared so you can share anything you wish, addi
 
 
 
+Tutorial:
+https://www.loom.com/share/f19ac59a21ad4fd4b422552e958b3385?sid=1e26e48d-2643-4003-9288-1e65eb02de0f
+
+Backup Download Link for Models:
+
+https://drive.google.com/file/d/1-e6Hd-qYOZ0v7caDwxxkRFoOzb3X101G/view?usp=sharing
+
+
+
+
+
+
 
